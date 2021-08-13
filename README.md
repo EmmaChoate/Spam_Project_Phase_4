@@ -23,7 +23,10 @@ We started by importing the necessary packages we needed to manipulate the data.
 Now elaborating on the created functions and some of the terminology used above.  Stop-words refers to all of the most common words used in the all languages, in our case English.  Therefore, when we removed stop-words this means that we removed words like: and, but, like, as, that, etc. The functions that are mentioned above were originally used as many steps in the notebook, but after some careful thinking and condensing the code we were able to just create three functions that did everything with a lot less coding.  
 
 We used a Naïve Bayes Classifier and a Random Forest Classifier to model, the Naïve Bayes Classifier returned with a 96.69% accuracy score and an 85.88% f1 score.  The Random Forest Classifier returned with a 97.63% accuracy score and a 90.26% f1 score.  The accuracy score takes into account the total correct predictions that were made, so for example where the variable was actually a ham email and the model correctly predicted a ham email, and the same for spam then added together, and divided by the total number of predictions the model made.
+
 ![alt text](https://github.com/EmmaChoate/Spam_Project_Phase_4/blob/main/images/nb_confusion_matrix.png)
+
+
 ![alt text](https://github.com/EmmaChoate/Spam_Project_Phase_4/blob/main/images/rf_confusion_matrix.png)
 
 
