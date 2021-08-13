@@ -9,10 +9,10 @@ Anyone who has an email knows how annoying spam is. As students at Birmingham So
 
 ## Data:
 We used data from Kaggle.com and imported the spam.csv. This data is based the bodies of emails and contains the following information:
-**Category:** Indicates whether or not the emails is spam or not
+#### Category: Indicates whether or not the emails is spam or not
 -	Ham is referred to as any email that is not spam
 -	Spam emails are as we all know spam
-**Message:** The body of the email not including the sender, signature, or attachments 
+#### Message: The body of the email not including the sender, signature, or attachments 
 
 ## Process:
 We cleaned and processed the data to eliminate any unnecessary details such as unnecessary punctuation, stop words, capitalized letters, etc. This was achieved by creating a cleaning function that did all of the above in one step. Once the data was cleaned, we were able to stem the data and tokenize it in order to be able to run it through models to see how our data preformed. 
