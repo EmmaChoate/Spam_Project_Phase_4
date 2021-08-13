@@ -35,5 +35,8 @@ For f1 score which is also referred to as precision-recall tradeoff which looks 
 ## Application and Deployment:
 Once we established a working model and finalized our notebook, it was on to the deployment phase.  We created and application that was designed around corroboration with our notebook and the elements used inside that notebook.  We used a template Web-Page to establish the code where we edited what we needed to develop the app so that not only the page itself but the code of the app would take an email that is pasted into the cell and run that message through the code the same way the imported data was run through the code to provide an accurate answer of whether the message was spam or not.
 
+![alt text](https://github.com/EmmaChoate/Spam_Project_Phase_4/blob/main/images/web_app_screenshot.png)
+
+
 ## Conclusions:
 Looking at the project now that it is finished there are some key aspects that we would hope to be able to continue to work on like making the web application a back-end process where you never see the actual application, but instead it is established where when any email is sent to the account with this application attached to it; it is sent through the model first to determine whether that email is spam or not, if it is spam it is sent from the model to a spam folder, and if the email is not spam then it is sent directly into the receivers inbox.
